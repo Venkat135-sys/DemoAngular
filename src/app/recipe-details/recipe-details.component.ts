@@ -12,12 +12,4 @@ export class RecipeDetailsComponent {
 
  @Input() recipeobj:Recipe
 
-
- @Output() myEvent = new EventEmitter();
-
- sendRecipeDetailsToParent(itemName){
-   this.myEvent.emit(itemName);
-
- }
-
 }
